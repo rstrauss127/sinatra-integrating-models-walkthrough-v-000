@@ -7,4 +7,4 @@
 <h2>Consonants: <%= @analyzed_text.count_of_consonants %></h2>
 
 <h2>Most Common Letter: <% @x = @analyzed_text.most_used_letter%>
-  <%= "#{@x[0]}" %>_____ used _____ times</h2>
+  <%= "#{@x[0].to_s}" %>_____ used _____ times</h2>
